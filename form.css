@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.header{
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+.form {
+    display: grid;
+    grid-column: 1/-1;
+    grid-row: 2/-2;
+    grid-template-columns: 1fr 1fr;
+    background-color: blue;
+    justify-items: center;
+    align-items: center;
+}
+.first-name {
+    grid-column: 1/2;
+}
+.last-name {
+    grid-column: 2/3;
+}
+.email {
+    grid-column: 1/-1;
+    background-color: yellow;
+}
+.textarea {
+    grid-column: 1/-1;
+}
+.button {
+    grid-column: 1/-1;
+    align-self: center;
+}

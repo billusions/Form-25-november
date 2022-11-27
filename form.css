@@ -22,32 +22,32 @@ body {
     grid-column: 1/-1;
     grid-row: 2/-2;
     grid-template-columns: 1fr 1fr;
+    width: 45%;
     background-color: white;
     justify-items: center;
     align-items: center;
-    margin-top: -80px;
-    border-radius: 6px;
+    border-radius: 20px;
     box-shadow: 0 0 15px rgba(0,0,0,.1);
 }
 .first-name {
     grid-column: 1/2;
-    margin: 35px 10px 15px 35px;
-
+    width: 100%;
 }
 .last-name {
     grid-column: 2/3;
-    margin: 35px 35px 15px 10px;
+    width: 100%;
 }
 .email {
     grid-column: 1/-1;
-    background-color: yellow;
+    width: 100%;
 }
 .textarea {
     grid-column: 1/-1;
+    width: 100%;
 }
 .button {
     grid-column: 1/-1;
-    align-self: center;
+    width: 100%;
 }
 h1 {
     font-family: Argr1000,sans-serif;
@@ -61,12 +61,34 @@ p {
     font-size: 20px;
 }
 input {
-    margin: px;
+    width: 85%;
+    margin: 25px;
     padding: 15px;
-    border 1px solid #dddddd;
+    background-color: #f8f8f8;
+    border: 1px solid #dddddd;
     border-radius: 7px;
-
+}
+textarea {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    border: 1px solid #dddddd;
+    border-radius: 7px;
+    margin: 25px;
+    padding: 15px;
 }
 ::placeholder {
     font-size: 16px;
+}
+button {
+    width: 40%;
+    display: block;
+    text-align: center;
+    margin: 0 auto 25px auto;
+    background-color: #28baa1;
+    color: white;
+    font-size: 17px;
+    padding: 17px;
+    border-radius: 30px;
+    border: none;
 }

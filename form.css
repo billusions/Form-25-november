@@ -30,20 +30,28 @@ body {
     box-shadow: 0 0 15px rgba(0,0,0,.1);
 }
 .first-name {
+    display: grid;
     grid-column: 1/2;
     width: 100%;
+    place-item: center;
 }
 .last-name {
+    display: grid;
     grid-column: 2/3;
     width: 100%;
+    place-item: center;
 }
 .email {
+    display: grid;
     grid-column: 1/-1;
     width: 100%;
+    place-items: center;
 }
 .textarea {
+    display: grid;
     grid-column: 1/-1;
     width: 100%;
+    place-items: center;
 }
 .button {
     grid-column: 1/-1;
@@ -61,20 +69,27 @@ p {
     font-size: 20px;
 }
 input {
-    width: 85%;
-    margin: 25px;
+    width: 80%;
+    margin: 25px auto 10px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border: 1px solid #dddddd;
+    border-radius: 7px;
+}
+#id-for-email {
+    width: 90%;
+    margin: 25px auto 10px;
     padding: 15px;
     background-color: #f8f8f8;
     border: 1px solid #dddddd;
     border-radius: 7px;
 }
 textarea {
-    width: 85%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 25px auto;
     background-color: #f8f8f8;
     border: 1px solid #dddddd;
     border-radius: 7px;
-    margin: 25px;
     padding: 15px;
 }
 ::placeholder {

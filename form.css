@@ -25,6 +25,7 @@ body {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     width: 45%;
+    margin: 40px;
     padding: 40px;
     background-color: white;
     justify-items: center;
@@ -83,7 +84,7 @@ button {
     width: 40%;
     display: block;
     text-align: center;
-    margin: 0 auto 25px auto;
+    margin: auto;
     background-color: #28baa1;
     color: white;
     font-size: 17px;

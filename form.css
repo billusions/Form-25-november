@@ -96,6 +96,9 @@ input, textarea {
     background-color: #f8f8f8;
     border: 1px solid #dddddd;
     border-radius: 7px;
+    font-family: ArGr1000-Lt,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
 ::placeholder {
     font-size: 16px;
@@ -111,9 +114,22 @@ button {
     color: white;
     font-family: ArGr1000-Bd,sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 550;
     letter-spacing: .05em;
     padding: 17px;
     border-radius: 30px;
     border: none;
 }
+button:hover {
+    background-color: #13957d;
+    cursor: pointer;
+    transition: color .2s,background-color .2s,opacity .2s;
+}
+input:focus, textarea:focus {
+    outline: none;
+    border: 1px solid #28baa1;
+    font-family: ArGr1000-Lt,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+

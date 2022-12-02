@@ -11,7 +11,6 @@
   url(https://assets.website-files.com/60af67d05e26d056cfe9e455/60af67d05e26d0e5bde9e510_ArGr1000-Rg.woff2),
   url(https://assets.website-files.com/60af67d05e26d056cfe9e455/60af67d05e26d039e5e9e4d9_ArGr1000-Lt.woff2);
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -39,7 +38,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    width: 45%;
+    width: 650px;
     margin: 40px;
     padding: 40px;
     background-color: white;
@@ -133,3 +132,22 @@ input:focus, textarea:focus {
     font-weight: 300;
 }
 
+@media(max-width: 902px) {
+        h1 {
+           font-size: 50px;
+           }
+        .form {
+            width: 70%;
+        }
+        p {
+            font-size: 15px;
+        }
+}
+@media(max-width: 600px) {
+        h1 {
+            font-size: 40px;
+        }
+        .form {
+            width: 70%;
+        }
+}
